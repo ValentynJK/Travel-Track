@@ -5,7 +5,8 @@ import 'dotenv/config' // for env vars
 
 // console.log(process.env)
 
-app.listen(3000, () => console.log('listening at 3000'));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Starting server at ${port}`));
 app.use(express.static('public')); // shows public folder;
 app.use(express.json({limit: '1mb' })); // converts request data to json object
 
