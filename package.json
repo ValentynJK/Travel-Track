@@ -1,0 +1,23 @@
+{
+  "name": "travel_track_node.js",
+  "version": "2.0.0",
+  "description": "App to seach weather and popular places in citie",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "travel",
+    "api",
+    "node"
+  ],
+  "author": "Valentyn Kolesnichenko",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0"
+  }
+}
